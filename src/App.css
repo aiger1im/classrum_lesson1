@@ -1,0 +1,40 @@
+.app {
+  text-align: center;
+}
+
+.clickCounter h1 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: color 0.5s;
+}
+.clickbutton {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.resetbtn {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.clickbutton:hover {
+  background-color: brown;
+  transform: scale(1.05);
+}
+.clickbutton:active {
+  transform: scale(0.05);
+}
+.resetbtn:hover {
+  background-color: brown;
+  transform: scale(1.05);
+}
+
+.resetbtn:active {
+  transform: scale(0.05);
+}
